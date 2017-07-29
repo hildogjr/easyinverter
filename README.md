@@ -1,11 +1,14 @@
 # easyInverter
 ## An academic modular 4 arms inverter focused to use in researches
 
-Initial development by Power Conditioning Laboratory (*[Laboratório de Condicionamento da Energia Elétrica](http://www.fee.unicamp.br/dse/antenor/lcee)*) at [University of Campinas](http://www.fee.unicamp.br/?language=en) ([**UNICAMP Brazil**](http://www.unicamp.br/unicamp/english)).
+Initial development by Power Conditioning Laboratory (*[Laboratório de Condicionamento da Energia Elétrica](http://www.fee.unicamp.br/dse/antenor/lcee)*), [School of Electrical and Computer Engineering](http://www.fee.unicamp.br/?language=en), at University of Campinas ([**UNICAMP Brazil**](http://www.unicamp.br/unicamp/english)).
 
-The use of this poject is free and conditioned to GNU General Propose License 3.0.
+The use of this project is free and conditioned to GNU General Propose License 3.0. The financial support was provide by São Paulo Research Foundation (FAPESP) under grants 2014/11720-7 and 2015/02325-0".
 
 The publication of academics works contend results using this project if conditioned to a ACKNOLEGMENT and citation of this repository in the "acknolegment part" of the article/paper.
+
+You may use this text:
+"The authors are grateful to the easyInverter's work team by the hardware project, avaliable at <<https://github.com/hildogjr/easyInverter>>"
 
 ---
 

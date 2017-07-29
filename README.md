@@ -1,5 +1,5 @@
 # easyInverter
-# A academic modular 4 arms inverter focused to use in researches
+# An academic modular 4 arms inverter focused to use in researches
 
 Initial development by Power Conditioning Laboratory <http://www.fee.unicamp.br/dse/antenor/lcee> at University of Campinas (UNICAMP).
 

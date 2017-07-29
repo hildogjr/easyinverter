@@ -7,6 +7,8 @@ The use of this poject is free and conditioned to GNU General Propose License 3.
 
 The publication of academics works contend results using this project if conditioned to a ACKNOLEGMENT and citation of this repository in the "acknolegment part" of the article/paper.
 
+---
+
 ## Early bird members
 - Hildo Guillardi Júnior (GUILLARDI JR., H.);
 - Joel Filipe Guerreiro (GUERREIRO, J. F.);

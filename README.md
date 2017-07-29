@@ -33,8 +33,8 @@ Previst uses, studies of:
 1. DC/DC convertes, e.g., boost, buck, buck-boost, push-pull;
 2. Power switching supplies, isolated topologies based on DC/DC convertes;
 3. Resonant converters;
-4. Inversor monofásico (usando os braços A-B e com possibilidade de uso do braço C para conexão sincronizada a rede e braço N para descarga/pré-carga do barramento CC, essa última função também pode ser realizada pelos relês externos);
+4. Single-phase inverter, using the two fisrt arms. Possibility to use the 3rd arm to synchonous connection to the grid and 4th to DC link boost/pre-load/discharge (discharge, pre-load and connection may be also performade by the two relays);
 5. Three-phase inverter three wire connection. With possibility of extra arm to pre-load/discharge of the DC link, DC/DC boost or any extra aplication conected to the same DC link;
 6. Three-phase inverter four wire connection (three-phase plus neutral);
 7. Single-phase back-to-back inverter (to three-phase is necessary use two boards);
-8. DOUBLE isolated single-phase inverters (independent DC links), to use as multilevel inverter aplications
+8. DOUBLE isolated single-phase inverters (independent DC links), to use as multilevel inverter aplications.

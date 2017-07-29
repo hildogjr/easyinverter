@@ -10,6 +10,8 @@ The publication of academics works contend results using this project if conditi
 You may use this text:
 "The authors are grateful to the easyInverter's work team by the hardware project, avaliable at <<https://github.com/hildogjr/easyInverter>>"
 
+The original schematic and PCB file are in Altium 14, the GEBERs and PDF are provided.
+
 ---
 
 ## Early bird members

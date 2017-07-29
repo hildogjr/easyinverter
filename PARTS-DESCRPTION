@@ -1,1 +1,51 @@
 This file describe the function of any part of the project.
+
+# Main power supplier
+Sheet: MainPowerSupplier.SchDoc
+
+Provides the positive voltage to the isolated power supplier, necessary do the gate drive, and the +5V to
+the logic circuits.
+
+
+# Logic
+Sheet: LogicCircuits.SchDoc
+
+Provide:
+1. The (if) necessary voltage level shift in the PWM / control signal (3.3V to 5V as HIGH LEVEL);
+2. Erro memory (of each arm) and board disable. By selection, one erro will disable all board or only it arm;
+3. Manual reset of the error (only if the board is not actived by the control connections);
+4. PWM inputs, control of the relays, board enable and external reset connections in an RJ45 standard. Plus a extra conection
+HEADER erros identification;
+5. Indication (LEDs) of the board status: power-on, actived, no-error or error in an speficic phase;
+
+
+
+# Dead-time + interlock
+Sheet: DeadTimeDriver_Leg.SchDoc
+
+Provide:
+1. The minimum dead-time to any arm of the inveter (configurable). It is used the inerent trigger
+level of the gate input and a RC circuit plus DIODE to create a delay in only one transition;
+2. The interlock (may be disable) between the HIGH SIDE and LOW SIDE group of transistors;
+
+# Isolated power supplier
+Sheet: GateDrivePowerSupply.SchDoc
+
+Provide the isolated voltage to gate the transistores plus the +5V to the logic and protections circuits.
+
+# Gate-drive + protections
+
+
+Sheet:
+
+# Power
+Sheet: MainPower.SchDoc
+
+Provide:
+1. The main conections of the DC links and transistores to create the desidered topology of study;
+2. The capacitors conections and measurement points.
+
+# Auxiliary
+Sheet: Auxiliary.SchDoc
+
+Provide TWO extra relays with them NO and NC connections.

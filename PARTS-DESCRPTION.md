@@ -46,10 +46,10 @@ the gate circuit;
 
 Use a 2.5V reference voltage circuit and a comparator IC to provide the bellow protections:
 
-1. *Low voltage gate driver* decrease the 2.5V refereve voltage NET until any ;
-2. *Over temperature*;
-3. *Over voltage* compare the scala;
-4. *Over current*.
+1. **Low voltage gate driver**, included in the reference generator, it decrease the 2.5V refereve voltage NET until any comparation threshold, in the case of low voltage in the isolated power supply;
+2. **Over temperature** use a analog output temperature sensor close to one transistor terminal;
+3. **Over voltage** compare the scaled voltage of the current conduction terminal of the group of transistors (DRAIN-SOURCE or EMITTER-COLLECTOR;
+4. **Over current** use the same measure of the *over voltage* protection in a different instant and scale, only a little time after the transistor turned-on. The time of this comparation is controlled by the PWM signal that disable this when is LOW and allow this protection some nanoseconds after the PWM goes HIGH, changing the scaled voltage. When the PWM is LOW the scaled voltage is ZERO to prevent the wrong protection trigger.
 
 # Gate drive circuit
 Sheet: GateDriveCircuit.SchDoc

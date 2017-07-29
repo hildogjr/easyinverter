@@ -29,7 +29,9 @@ The specification values are not necessary concomitant.
 - 3.3V or 5V input logic control;
 - Min dead-time & phase transistors interlock onboard;
 - TWO extra relays;
-- SMD topology with TO-247 transistor to easy replacement.
+- SMD topology with TO-247 transistor to easy replacement;
+- Isolated power supplier to the gate driver (it not depends of PWM to works fine);
+- Protection: under voltage of the isolated supplier (gate driver), over current, over voltage and over temperature.
 
 ## Previst powers proposes (look in power limitations)
 1. 800V/10A -> To invertes grid conected aplications, motor control;

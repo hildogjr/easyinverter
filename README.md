@@ -8,9 +8,9 @@ The use of this project is free and conditioned to GNU General Propose License 3
 The publication of academics works contend results using this project if conditioned to a ACKNOLEGMENT and citation of this repository in the "acknolegment part" of the article/paper.
 
 You may use this text:
-"The authors are grateful to the easyInverter's work team by the hardware project, avaliable at <<https://github.com/hildogjr/easyInverter>>"
+"The authors are grateful to the easyInverter's work team by the inverter project, which is avaliable at <<https://github.com/hildogjr/easyInverter>>"
 
-The original schematic and PCB file are in Altium 14, the GEBERs and PDF are provided.
+The original schematic and PCB file are in Altium 14, the GEBERs and schematic PDF are provided in the [Assemblies folder](https://github.com/hildogjr/easyInverter/tree/master/Assemblies).
 
 ---
 
@@ -33,7 +33,7 @@ The specification values are not necessary concomitant.
 - TWO extra relays;
 - SMD topology with TO-247 transistor to easy replacement;
 - Isolated power supplier to the gate driver (it not depends of PWM to works fine);
-- Protection: under voltage of the isolated supplier (gate driver), over current, over voltage and over temperature.
+- Protection: under voltage of the isolated supplier (gate driver), over current, over voltage on the grup of transistors and over temperature.
 
 ## Previst powers proposes (look in power limitations)
 1. 800V/10A -> To invertes grid conected aplications, motor control;

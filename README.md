@@ -3,7 +3,7 @@
 
 Initial development by Power Conditioning Laboratory (*[Laboratório de Condicionamento da Energia Elétrica](http://www.fee.unicamp.br/dse/antenor/lcee)*), [School of Electrical and Computer Engineering](http://www.fee.unicamp.br/?language=en), at University of Campinas ([**UNICAMP Brazil**](http://www.unicamp.br/unicamp/english)).
 
-The use of this project is free and conditioned to GNU General Propose License 3.0. The financial support was provide by São Paulo Research Foundation (FAPESP) under grants 2014/11720-7 and 2015/02325-0".
+The use of this project is free and conditioned to GNU General Propose License 3.0. The financial support was provide by São Paulo Research Foundation (FAPESP) under grants 2014/11720-7 and 2015/02325-0.
 
 The publication of academics works contend results using this project if conditioned to a ACKNOLEGMENT and citation of this repository in the "acknolegment part" of the article/paper.
 

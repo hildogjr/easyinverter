@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=LogicsOnly.OutJob
 Description=
-TargetOutputMedium=Gebers
+TargetOutputMedium=Gerbers
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -29,7 +29,7 @@ OutputMedium1_Printer=
 OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium2=PDF
 OutputMedium2_Type=Publish
-OutputMedium3=Gebers
+OutputMedium3=Gerbers
 OutputMedium3_Type=GeneratedFiles
 OutputType1=Assembly
 OutputName1=Assembly Drawings

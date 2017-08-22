@@ -1,6 +1,7 @@
 History of the first develop step of each part of the inverter until get a complet inverter.
 
-# 2017-06-13
+2017-06-13
+------------
 
 - **Folder:** 2017-06-13 Logics only prototype [HGJr]
 - **Images:** "2017-06-29 Logic (bottom).jpg" & "2017-06-29 Logic (top).jpg"
@@ -9,7 +10,8 @@ History of the first develop step of each part of the inverter until get a compl
 
 1. Improved the main power supply layout to reduce the size and improve EMI.
 
-# 2017-06-01
+2017-06-01
+------------
 
 - **Folder:** 2017-06-01 One phase  [FSG] (with errors)
 - **Images:** "2017-06-27 One phase 3.jpg" & "2017-08-06 One phase 3.jpg"
@@ -32,7 +34,8 @@ Layout by Fellipe.
 2. High interference.
 Tested up to 100V, 100KHz.
 
-# 2017-05-17
+2017-05-17
+------------
 
 - **Images:** "Supplier (bottom).jpg" & "Supplier (top).jpg"
 
@@ -40,7 +43,8 @@ Tested the main power supply to provide energy to all the board in final project
 
 Layout recomended by the manufacturer.
 
-# 2017-03-13
+2017-03-13
+------------
 
 - **Folder:** "2017-03-13 One phase prototype [HGJr]"
 - **Images:** "2017-04-28 One phase 2 (bottom).jpg" & "2017-04-28 One phase 2 (top).jpg"
@@ -57,7 +61,8 @@ It was necessary add some extra gate ("snubber") circuit to avoid the voltage ov
 1. Tested the Si8421 IC isolator (LOW default output) at the plae of Si8422 (HIGH default ouput). Diagnosed a problem when this IC burn, may drive on the transistors. This correction was not included in the layout;
 2. Better isloated supply layout (the data pins are exchanged).
 
-# 2017-04-03
+2017-04-03
+------------
 
 - **Images:** "One phase (bottom).jpg" & "One phase (top).jpg"
 
@@ -65,13 +70,15 @@ First version of one arm of the inverter. Protections does not worked.
 
 Layout by Arthur.
 
-# 2016-10-05
+2016-10-05
+------------
 
 - **Images:** "2016-10-05 Isolated supplier 2 (bottom).jpg" & "2016-10-05 Isolated supplier 2 (top).jpg"
 
 Improved layout by Fellipe, Arthur and Hildo.
 
-# 2016-10-01
+2016-10-01
+------------
 
 - **Image:** "2016-10-01 Isolated supplier 1.jpg"
 

@@ -48,4 +48,5 @@ The specification values are not necessary concomitant.
 5. Three-phase inverter three wire connection. With possibility of extra arm to pre-load/discharge of the DC link, DC/DC boost or any extra aplication conected to the same DC link;
 6. Three-phase inverter four wire connection (three-phase plus neutral);
 7. Single-phase back-to-back inverter (to three-phase is necessary use two boards);
-8. DOUBLE isolated single-phase inverters (independent DC links), to use as multilevel inverter aplications.
+8. DOUBLE isolated single-phase inverters (independent DC links), to use as multilevel inverter aplications;
+9. Three-phase Vienna rectifier.

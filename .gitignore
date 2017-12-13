@@ -1,13 +1,20 @@
 __Previews/
 *.*Preview
 *.SchDocPreview
+*.schDocPreview
 *.PcbDocPreview
+*.dfmPreview
+*.pasPreview
 History/
 *.SchDoc.Zip
 *.PrjDoc.Zip
+*.PrjScr.Zip
 Project Output*/
 *.rep
 *.dat
 *.Dat
 *.dfm
 *.pas
+*.htm
+*.$$$
+*.stp

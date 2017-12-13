@@ -1,0 +1,13 @@
+__Previews/
+*.*Preview
+*.SchDocPreview
+*.PcbDocPreview
+History/
+*.SchDoc.Zip
+*.PrjDoc.Zip
+Project Output*/
+*.rep
+*.dat
+*.Dat
+*.dfm
+*.pas

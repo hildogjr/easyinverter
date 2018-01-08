@@ -1,15 +1,15 @@
-__Previews/
+__Previews/*
 *.*Preview
 *.SchDocPreview
 *.schDocPreview
 *.PcbDocPreview
 *.dfmPreview
 *.pasPreview
-History/
+History/*
 *.SchDoc.Zip
 *.PrjDoc.Zip
 *.PrjScr.Zip
-Project Output*/
+Project Output*/*
 *.rep
 *.dat
 *.Dat

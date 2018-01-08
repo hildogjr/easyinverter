@@ -361,15 +361,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TIFXPSUX
 
 [GeneratedDocument1]
-DocumentPath=OnePhase.csv
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=OnePhase.xml
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=OnePhase.xsl
 DItemRevisionGUID=
 
 [Configuration1]
@@ -831,7 +823,7 @@ Configuration1_Item1=CaptionAsName
 Configuration1_Name2=Filter
 Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration1_Name3=General
-Configuration1_Item3=OpenExported=True|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=4|FormWidth=950|FormHeight=660|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration1_Item3=OpenExported=False|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=950|FormHeight=660|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=Comment=True|Footprint=True
 Configuration1_Name5=OutputConfigurationParameter1
@@ -843,7 +835,7 @@ Configuration1_Item7=FileName=[PCB Document 3]
 Configuration1_Name8=SortOrder
 Configuration1_Item8=Designator=Up|Comment=Up|Footprint=Up
 Configuration1_Name9=VisibleOrder
-Configuration1_Item9=Comment=100|Description=100|Designator=100|Footprint=100|LibRef=100|Quantity=100|Value=100
+Configuration1_Item9=Designator=100|Footprint=100|Quantity=100|Value=100|pn=100
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=

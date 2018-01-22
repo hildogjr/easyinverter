@@ -1,4 +1,4 @@
-History of the first develop step of each part of the inverter until get a complet inverter.
+History of the first develop step of each part of the inverter until get a complete inverter.
 
 2017-06-13
 ------------
@@ -24,13 +24,13 @@ Layout by Fellipe.
 
 1. Changed the optical isolator Si8421Ad to Si8422;
 2. Reduce the size;
-3. Top silk and footprints in standards to facture production;
+3. Top silk and footprints in standards to factory production;
 4. Calibrated the gate snubber circuit component values (not in this schematic, updated to next version).
-5. Changed the gate drive MIC4420 + AND gate 74HCT1G08 to the ???? gate drive with schmitt trigger input and enable terminal (not in this schematic, updated to next version).
+5. Changed the gate drive MIC4420 + AND gate 74HCT1G08 to the ???? gate drive with Schmitt trigger input and enable terminal (not in this schematic, updated to next version).
 
 ## Diagnosed erros / warnings
 
-1. Replaced the input pair 8-9 and 10-11. Correted in tests by wires;
+1. Replaced the input pair 8-9 and 10-11. Corrected in tests by wires;
 2. High interference.
 Tested up to 100V, 100KHz.
 
@@ -58,7 +58,7 @@ It was necessary add some extra gate ("snubber") circuit to avoid the voltage ov
 
 ## Improvements did
 
-1. Tested the Si8421 IC isolator (LOW default output) at the plae of Si8422 (HIGH default ouput). Diagnosed a problem when this IC burn, may drive on the transistors. This correction was not included in the layout;
+1. Tested the Si8421 IC isolator (LOW default output) at the place of Si8422 (HIGH default output). Diagnosed a problem when this IC burn, may drive on the transistors. This correction was not included in the layout;
 2. Better isloated supply layout (the data pins are exchanged).
 
 2017-04-03

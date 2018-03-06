@@ -1,4 +1,4 @@
-# Easy Inverter
+# Edgeverter
 **An academic budget cost modular 4 arms inverter focused to use in researches**
 
 Initial development by Power Conditioning Laboratory (*[Laboratório de Condicionamento da Energia Elétrica](http://www.fee.unicamp.br/dse/antenor/lcee)*), [School of Electrical and Computer Engineering](http://www.fee.unicamp.br/?language=en), at University of Campinas ([**UNICAMP Brazil**](http://www.unicamp.br/unicamp/english)).
@@ -8,9 +8,9 @@ The use of this project is free and conditioned to GNU General Propose License 3
 The publication of academics works contend results using this project if conditioned to a ACKNOWLEDGMENT and citation of this repository in the "acknowledgment part" of the article/paper.
 
 You may use this text:
-"The authors are grateful to the easyInverter's work team by the inverter project, which is available at <<https://github.com/hildogjr/easyInverter>>"
+"The authors are grateful to the edgeverter's work team by the inverter project, which is available at <<https://github.com/hildogjr/easyInverter>>"
 
-The original [schematic and PCB file](https://github.com/hildogjr/easyInverter/tree/master/Altium%20prj) are in [Altium 14](http://www.altium.com/), the GEBERs and schematic PDF are provided in the [Assemblies folder](https://github.com/hildogjr/easyInverter/tree/master/Assemblies).
+The original [schematic and PCB file](https://github.com/hildogjr/easyInverter/tree/master/Altium%20prj) are in [Altium 16](http://www.altium.com/), the GERBERs and schematic PDF are provided in the [Assemblies folder](https://github.com/hildogjr/easyInverter/tree/master/Assemblies).
 
 ---
 

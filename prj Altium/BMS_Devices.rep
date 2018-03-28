@@ -1,0 +1,48 @@
+CSV text has been written to file : BMS_Devices.csv
+
+Library Component Count : 41
+
+Name                Description
+----------------------------------------------------------------------------------------------------
+
+ACS756              Current Transducer - Hall Sensor
+ADuM3190            Isolator
+ADuM3440            Quad Channel, High Speed Digital Isolators
+ADuM3441            Quad Channel, High Speed Digital Isolators
+Cap Ele             Capacitor Eletrolítico
+Conector Fonte      Fonte 4 elementos
+Conector2           Conector 2 pinos
+Conector_Fonte      
+DSPIC33EP           High-Performance 16-bit Digital Signal Controller, 256 KB Flash, 16 KB RAM, 64-Pin TQFP, Industrial Temperature
+Ethernet            Ethernet
+Ethernet_1          Ethernet
+FOD817              Optocoupler FOD817
+Fuse                Fusível
+Fuse_1              Fusível
+HP2611              Optocoupler
+HP2631              Optocoupler
+JUMPER3             Conector 3 pinos
+LA50P               Current Transducer
+LA55P               Current Transducer
+LEM                 Voltage or Current Transducer
+LM311               
+LM335AZ             Precision Temperature Sensor
+LM5017              Buck controller with integrated switches
+LM78XX              Regulador de Tensão
+LM79XX              Regulador de Tensão
+LV25P               Voltage Transducer
+MCP9700AT-E/LT      Low-Power Linear Active Thermistor IC, 5-Pin SC-70, Extended Temperature, Tape and Reel
+MCP9700AT-E/TT      Low-Power Linear Active Thermistor IC, 3-Pin SOT-23, Extended Temperature, Tape and Reel
+MMA8653FC           10-bit Digital Accelerometer
+MOSFET              SOT227
+NJM2846             JRC Low Dropout Regulators
+PhotoMOS            PhotoMOS
+RF_Module           RadioIT Module
+RPot1               Potenciometro
+R_Pow               Power Resistor
+SN7404N             Hex Inverter
+SN7430N             8-Input Positive-NAND Gate
+TDK-CC-E            Power Supply
+TDK_CC6             DC-DC Converter Unit
+TPS79850            Positive-Voltage Regulator
+VBT2                DC-DC Converter

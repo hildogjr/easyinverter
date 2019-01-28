@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [OnePhase.PrjPcb]
+   Generated File[OnePhaseSemLogica_V1.TXT]
+   Generated File[OnePhaseSemLogica_V1-RectHoles.TXT]
+   Generated File[OnePhaseSemLogica_V1.LDP]
+   Generated File[OnePhaseSemLogica_V1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 15:56:32 On 13/03/2017

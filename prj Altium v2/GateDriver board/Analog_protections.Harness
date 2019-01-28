@@ -1,0 +1,2 @@
+Isolated_power=12V_iso,5V_iso,GND_iso
+System Protection Signals=Vcc,V_temp,Drain

@@ -1,0 +1,2 @@
+DC_link=+VIN,0,-VIN
+FullBridge_commands={Phase_A_commands:Driver_input_connections},{Phase_B_commands:Driver_input_connections}

@@ -1,0 +1,3 @@
+Driver_input_connections=PWM_HS,PWM_LS,ERROR,EN
+FullBridge_commands={Phase_A_commands:Driver_input_connections},{Phase_B_commands:Driver_input_connections}
+PowerSupplyOutputs=5V,12V,0V

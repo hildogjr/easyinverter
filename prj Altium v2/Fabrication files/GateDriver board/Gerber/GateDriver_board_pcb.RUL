@@ -1,0 +1,23 @@
+DRC Rules Export File for PCB: C:\Users\tutip\Dropbox\EdgeVerter\easyInverter\Altium prj\New_version\GateDriver_board\GateDriver_board_pcb.PcbDoc
+RuleKind=Clearance|RuleName=FIXING_PINS|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_2_ls_drain_3|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_2_ls_drain_2|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_2_ls_drain_1|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_1_ls_drain_4|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_1_ls_drain_3|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_1_ls_drain_2|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_1_hs_drain_1|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_ls_drain|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_1_hs_drain_4|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_1_hs_drain_3|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_1_hs_drain_2|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_1_ls_drain_1|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_2_hs_drain_3|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_2_hs_drain_2|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_2_hs_drain_1|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=HV_hs_drain|Scope=Board|Minimum=106.30
+RuleKind=Clearance|RuleName=Isolated_domains|Scope=Board|Minimum=106.30
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=8.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

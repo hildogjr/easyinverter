@@ -1,0 +1,51 @@
+<?xml version = "1.0" ?>
+<?xml-stylesheet type="text/xsl" href="IsolatedPowerSupply.xsl"?>
+<!DOCTYPE GRID [
+  <!ELEMENT GRID (BANDS, COLUMNS, ROWS*)>
+  <!ATTLIST GRID ExportVersion CDATA #REQUIRED>
+  <!ELEMENT BANDS (BAND*)>
+  <!ELEMENT BAND EMPTY>
+  <!ATTLIST BAND Index CDATA #REQUIRED>
+  <!ATTLIST BAND Caption CDATA #IMPLIED>
+  <!ELEMENT COLUMNS (COLUMN*)>
+  <!ELEMENT COLUMN EMPTY>
+  <!ATTLIST COLUMN Name CDATA #REQUIRED>
+  <!ATTLIST COLUMN Caption CDATA #IMPLIED>
+  <!ATTLIST COLUMN Index CDATA #REQUIRED>
+  <!ATTLIST COLUMN BandIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN RowIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN ColIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN Width CDATA #IMPLIED>
+  <!ELEMENT GROUP (GROUP*, ROW*)>
+  <!ATTLIST GROUP GroupText CDATA #IMPLIED>
+  <!ELEMENT ROWS (ROW*)>
+  <!ELEMENT ROW EMPTY>
+  <!ATTLIST ROW Description CDATA #IMPLIED>
+  <!ATTLIST ROW Designator CDATA #IMPLIED>
+  <!ATTLIST ROW Footprint CDATA #IMPLIED>
+  <!ATTLIST ROW Quantity CDATA #IMPLIED>
+  <!ATTLIST ROW pn CDATA #IMPLIED>
+  <!ATTLIST ROW Value CDATA #IMPLIED>
+]>
+<GRID ExportVersion="1.0">
+  <BANDS>
+    <BAND Index="0" Caption=""></BAND>
+  </BANDS>
+  <COLUMNS>
+    <COLUMN Name="Description" Caption="Description" Index="0" BandIndex="0" RowIndex="0" ColIndex="0" Width="319"></COLUMN>
+    <COLUMN Name="Designator" Caption="Designator" Index="1" BandIndex="0" RowIndex="0" ColIndex="1" Width="246"></COLUMN>
+    <COLUMN Name="Footprint" Caption="Footprint" Index="2" BandIndex="0" RowIndex="0" ColIndex="2" Width="235"></COLUMN>
+    <COLUMN Name="Quantity" Caption="Quantity" Index="3" BandIndex="0" RowIndex="0" ColIndex="3" Width="131"></COLUMN>
+    <COLUMN Name="pn" Caption="pn" Index="4" BandIndex="0" RowIndex="0" ColIndex="4" Width="149"></COLUMN>
+    <COLUMN Name="Value" Caption="Value" Index="5" BandIndex="0" RowIndex="0" ColIndex="5" Width="149"></COLUMN>
+  </COLUMNS>
+  <ROWS>
+    <ROW Description="" Designator="T1" Footprint="Trafo" Quantity="1" pn="760390015" Value="Wurth 1:2"></ROW>
+    <ROW Description="" Designator="U8" Footprint="LM78XX" Quantity="1" pn="UA78M05CDCY" Value="LM7805"></ROW>
+    <ROW Description="Capacitor nao polarizado, Capacitor nao polarizado, Capacitor nao polarizado, Capacitor nao polarizado, Capacitor, Capacitor, Capacitor, Capacitor, Capacitor, Resistor, Resistor, Resistor, Resistor, Resistor, Resistor" Designator="C19, C20, C21, C22, C23, C24, C25, Cin1, Cin2, R26, R27, R28, R29, R30, R31" Footprint="0805_W" Quantity="15" pn="08053C225KAT2A, 08053C104KAT2A, 08053C104KAT2A, 08053C104KAT2A, 08053C104KAT2A, 08053C104KAT2A, 08053C102KAT2A, 08053C105KAT2A, 08053C104KAT2A, RMCF0805JT12K0, RMCF0805JT3K30, RMCF0805JT1R50, RMCF0805JT1R50, &#91;NoParam&#93;, RMCF0805JT4K70" Value="2.2uF, 100nF, 100nF, 100nF, 100nF, 100nF, 1nF, 1uF, 100nF, 12K, 3.3k, 1R5, 1R5, not used, 4.7k"></ROW>
+    <ROW Description="PNP General-purpose Transistor, NPN General-purpose Transistor" Designator="Q3, Q4" Footprint="SOT-23-TT3_N" Quantity="2" pn="BC857BLT1G, BC847BLT1G" Value="BC857B, BC847B"></ROW>
+    <ROW Description="Pulse-Width-Modulation Control Circuit" Designator="U7" Footprint="SOIC16_M" Quantity="1" pn="TL494IDR" Value="TL494"></ROW>
+    <ROW Description="Schottky Diode" Designator="D9, D10" Footprint="SOD-123" Quantity="2" pn="BAT46ZFILM" Value="BAT46Z"></ROW>
+    <ROW Description="Header, 2-Pin" Designator="IN_1, OUT_1, OUT_2" Footprint="Header2" Quantity="3" pn="1935161" Value=""></ROW>
+  </ROWS>
+</GRID>

@@ -1,4 +1,4 @@
-# Edgeverter
+# EasyInverter
 **An academic budget cost modular 4 arms inverter focused to use in researches**
 
 Initial development by Power Conditioning Laboratory (*[Laboratório de Condicionamento da Energia Elétrica](http://www.fee.unicamp.br/dse/antenor/lcee)*), [School of Electrical and Computer Engineering](http://www.fee.unicamp.br/?language=en), at University of Campinas ([**UNICAMP Brazil**](http://www.unicamp.br/unicamp/english)).

@@ -34,5 +34,5 @@ Project Output*/*
 *.xlsx
 
 # Not synchronized folders.
-Topologies/*
-Based projects/*
+Topologies
+Based projects

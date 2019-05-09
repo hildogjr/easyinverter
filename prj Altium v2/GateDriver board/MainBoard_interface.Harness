@@ -1,5 +1,0 @@
-12V_rail=12V,0V
-5V_rail=5V,0V
-Driver_logic_inputs=HS_IN,LS_IN,ENABLE,\E\R\R
-Driving_lines=G1,S1,G2,S2
-Sensing_signals=Drain,V_temp,Vcc,SENSE_GND

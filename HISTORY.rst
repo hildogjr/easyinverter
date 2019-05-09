@@ -1,5 +1,20 @@
 History of the first develop step of each part of the inverter until get a complete inverter.
 
+2018-04-??
+------------
+
+1. Migrated to Altium 18.
+2. Added 3D model to the components and organized the library of the project;
+3. Changed the gate drive to Schmitt trigger model with enable pin (removed the little AND port);
+4. Changed the isolated power supply circuit to a RECOM module and add a EMC (Conducted and Radiated Filter) filter;
+5. Improved the gate drive circuit to avoid cross-talk trigger;
+5. Gate drive and protection goes to a vertical modular board;
+6. Changed the base power design to a H-bridge (2 phases) instead a arm (1 phase).
+
+Layout by Luis H. D. Possatti.
+Revision by Hildo and Joel.
+
+
 2017-06-13
 ------------
 
@@ -9,6 +24,7 @@ History of the first develop step of each part of the inverter until get a compl
 ## Improvements did
 
 1. Improved the main power supply layout to reduce the size and improve EMI.
+
 
 2017-06-01
 ------------
@@ -22,17 +38,18 @@ Layout by Fellipe.
 
 ## Improvements did
 
-1. Changed the optical isolator Si8421Ad to Si8422;
-2. Reduce the size;
+1. Changed the optical isolator Si8421Ad to Si8422 (21 model goes HIGH when burn and 22 goes LOW);
+2. Reduced the size;
 3. Top silk and footprints in standards to factory production;
 4. Calibrated the gate snubber circuit component values (not in this schematic, updated to next version).
 5. Changed the gate drive MIC4420 + AND gate 74HCT1G08 to the ???? gate drive with Schmitt trigger input and enable terminal (not in this schematic, updated to next version).
 
-## Diagnosed erros / warnings
+## Diagnosed errors / warnings
 
 1. Replaced the input pair 8-9 and 10-11. Corrected in tests by wires;
 2. High interference.
 Tested up to 100V, 100KHz.
+
 
 2017-05-17
 ------------
@@ -59,7 +76,8 @@ It was necessary add some extra gate ("snubber") circuit to avoid the voltage ov
 ## Improvements did
 
 1. Tested the Si8421 IC isolator (LOW default output) at the place of Si8422 (HIGH default output). Diagnosed a problem when this IC burn, may drive on the transistors. This correction was not included in the layout;
-2. Better isloated supply layout (the data pins are exchanged).
+2. Better isolated supply layout (the data pins are exchanged).
+
 
 2017-04-03
 ------------
@@ -70,12 +88,14 @@ First version of one arm of the inverter. Protections does not worked.
 
 Layout by Arthur.
 
+
 2016-10-05
 ------------
 
 - **Images:** "2016-10-05 Isolated supplier 2 (bottom).jpg" & "2016-10-05 Isolated supplier 2 (top).jpg"
 
 Improved layout by Fellipe, Arthur and Hildo.
+
 
 2016-10-01
 ------------

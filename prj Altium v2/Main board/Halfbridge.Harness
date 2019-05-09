@@ -1,4 +1,0 @@
-DC_link=+VIN,0,-VIN
-Gate_driver_interface_HS=D_HS,G_HS1,S_HS1,G_HS2,S_HS2
-Gate_driver_interface_LS=D_LS,G_LS1,S_LS1,G_LS2,S_LS2
-Sensing_signals=Vcc,Output,GND_SENSE

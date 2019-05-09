@@ -1,8 +1,0 @@
-DRC Rules Export File for PCB: C:\Users\LCEE\Google Drive\Projeto Inversor LCEE\Esquemáticos e PCB\Inverter_LCEE\LogicsOnly.PcbDoc
-RuleKind=Clearance|RuleName=Stitching 0|Scope=Board|Minimum=5.00
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.91
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
-RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=5.91
-RuleKind=Clearance|RuleName=PowerClearance|Scope=Board|Minimum=5.91

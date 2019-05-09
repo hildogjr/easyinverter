@@ -1,3 +1,4 @@
+# Altium template and backups.
 __Previews/*
 *.*Preview
 *.SchDocPreview
@@ -18,3 +19,20 @@ Project Output*/*
 *.htm
 *.$$$
 *.stp
+*.Annotation
+
+# Other backups.
+*.txt
+*.bck
+*bak
+*~
+
+# Other software to not sync.
+*.pdsprj
+*.pdsbak
+*.workspace
+*.xlsx
+
+# Not synchronized folders.
+Topologies/*
+Based projects/*

@@ -1,3 +1,0 @@
-12V_iso_rail=12V_iso,GND_iso
-5V_iso_rail=5V_iso,GND_iso
-Sensing_signals=Vcc,V_temp,Drain,SENSE_GND

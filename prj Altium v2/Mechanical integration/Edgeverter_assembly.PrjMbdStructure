@@ -1,6 +1,0 @@
-Record=DiagramHierarchy|SourceDocument=Edgeverter_Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=GateDriver_B|Source=..\GateDriver_board\GateDriver_board.PrjPCB
-Record=SubProject|SourceDocument=Edgeverter_Schematic.MbsDoc|ProjectPath=..\GateDriver_board\GateDriver_board.PrjPCB
-Record=DiagramHierarchy|SourceDocument=Edgeverter_Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=GateDriver_A|Source=..\GateDriver_board\GateDriver_board.PrjPCB
-Record=SubProject|SourceDocument=Edgeverter_Schematic.MbsDoc|ProjectPath=..\GateDriver_board\GateDriver_board.PrjPCB
-Record=DiagramHierarchy|SourceDocument=Edgeverter_Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=MainBoard|Source=..\Main_board\MainBoard.PrjPCB
-Record=SubProject|SourceDocument=Edgeverter_Schematic.MbsDoc|ProjectPath=..\Main_board\MainBoard.PrjPCB

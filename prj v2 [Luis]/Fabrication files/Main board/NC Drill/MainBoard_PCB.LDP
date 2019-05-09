@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\tutip\Dropbox\EdgeVerter\easyInverter\Altium prj\New_version\Main_board\MainBoard_PCB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=mainboard_pcb-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=mainboard_pcb-slotholes.txt|DrillLayers=gtl,gbl

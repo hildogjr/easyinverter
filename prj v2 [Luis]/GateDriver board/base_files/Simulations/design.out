@@ -1,0 +1,295 @@
+******************************************************************************************************************************************************************
+***                                                                                                                                                            ***
+*** Elements Version 8.10h (x86) - 12/10/2018 16:29                                                                                                            ***
+*** Platform: Windows 10                                                                                                                                       ***
+*** Architecture: x64                                                                                                                                          ***
+*** Serial Number:                                                                                                                                             ***
+*** User:                                                                                                                                                      ***
+***                                                                                                                                                            ***
+*** TITLE:   * C:\Users\tutip\Dropbox\EdgeVerter\easyInverter\Altium prj\New_version\GateDriver_board\base_files\Simulations\dead_time\dead_time_circuit.sxcmp***
+*** NETLIST: C:\Users\tutip\Dropbox\EdgeVerter\easyInverter\Altium prj\New_version\GateDriver_board\base_files\Simulations\dead_time\design.net                ***
+***                                                                                                                                                            ***
+******************************************************************************************************************************************************************
+
+********************************************************************************
+***                                                                          ***
+***                                Input Deck                                ***
+***                                                                          ***
+********************************************************************************
+
+#SIMETRIX
+.GRAPH U5_OUT axisType="auto" persistence=-1 graphName="IO" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true curveLabel="LS_command" disabled=false 
+V1 En 0 5
+V2 shoot_t_2 0 5 Pulse(0 5 18u 1n 1n error_width)
+R1 R1_P Q2_E 1k
+V3 LS_in 0 5 Pulse(0 5 2.5u 1n 1n width 5u)
+R2 R1_P LS_in R_dt
+V4 5V 0 5
+R3 R3_P Q1_E 1k
+V5 shoot_t_1 0 5 Pulse(0 5 8u 1n 1n error_width)
+R4 R3_P HS_in R_dt
+R5 R5_P LS_in 5k
+R6 R6_P HS_in 5k
+A$U10 LS_in U10_OUT HC04D
+A$U1 [HS_in En] U1_OUT HC08D
+A$U2 [LS_in R1_P] U2_OUT HC02D
+Q1 5V R6_P Q1_E 0 BC847
+A$U3 [U1_OUT U2_OUT] U3_OUT HC08D
+Q2 5V R5_P Q2_E 0 BC847
+A$U4 [LS_in En] U4_OUT HC08D
+A$U5 [U4_OUT U6_OUT] U5_OUT HC08D
+A$U6 [HS_in R3_P] U6_OUT HC02D
+A$U7 LS_in U7_OUT HC04D
+A$U8 [U3_OUT U5_OUT] U8_OUT HC08D
+A$U9 [U10_OUT 0 0] HS_in HC4075
+C1 R1_P 0 10p  
+C2 R3_P 0 10p  
+.GRAPH U1_OUT axisType="auto" persistence=-1 analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true curveLabel="HS_input_masked" disabled=true 
+.GRAPH R1_P axisType="auto" persistence=-1 graphName="Signals" curveLabel="LS_rc" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true disabled=true 
+.GRAPH En axisType="auto" persistence=-1 analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true curveLabel="En" disabled=true 
+.GRAPH HS_in axisType="digital" persistence=-1 graphName="IO" curveLabel="HS_in" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+.GRAPH LS_in axisType="digital" persistence=-1 graphName="IO" curveLabel="LS_in" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+.GRAPH U3_OUT axisType="auto" persistence=-1 graphName="IO" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true curveLabel="HS_command" disabled=false 
+.GRAPH R5#N axisType="auto" persistence=-1 curveLabel="I_input" analysis="tran|ac|dc" xLog="auto" yLog="lin"  nowarn=true disabled=true 
+.GRAPH U8_OUT axisType="auto" persistence=-1 graphName="Error_detection" curveLabel="shoot_through_flag" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+.TRAN 0 20u 0 500p ; SWEEP PARAM=width LIN 20 0 5u
+.PARAM error_width 500n
+.PARAM width 2.5u
+.PARAM R_dt 40k
+.model BC847 npn ( IS=7.59E-15 VAF=73.4 BF=480 IKF=0.0962 NE=1.2665
++    ISE=3.278E-15 IKR=0.03 ISC=2.00E-13 NC=1.2 NR=1 BR=5 RC=0.25 CJC=6.33E-12
++    FC=0.5 MJC=0.33 VJC=0.65 CJE=1.25E-11 MJE=0.55 VJE=0.65 TF=4.26E-10
++    ITF=0.6 VTF=3 XTF=20 RB=100 IRB=0.0001 RBM=10 RE=0.5 TR=1.50E-07)
+*From Philips SC04 "Small signal transistors 1991"
+* Base spreading parameters (RB,IRB,RBM) estimated. TR derived using BCY58 data
+.model HC4075 d_or
++ rise_delay = 7.5n
++ fall_delay = 7.5n
++ out_res = 40
++ input_load = 4.5p
++ family = "HC"
+.model HC08D d_and
++ rise_delay = 6.5n
++ fall_delay = 6.5n
++ out_res = 40
++ input_load = 4.5p
++ family = "HC"
+.model HC04D d_inverter
++ rise_delay = 5.5n
++ fall_delay = 5.5n
++ out_res = 40
++ input_load = 4.5p
++ family = "HC"
+.model HC02D d_nor
++ rise_delay = 6.5n
++ fall_delay = 6.5n
++ out_res = 40
++ input_load = 4.5p
++ family = "HC"
+a$BRIDGE_404 R3_P R3_P#_in HC_adc
+a$BRIDGE_405 0 0#_in HC_adc
+a$BRIDGE_406 R1_P R1_P#_in HC_adc
+a$BRIDGE_407 HS_in#_out HS_in HC_dac
+a$BRIDGE_408 HS_in HS_in#_in HC_adc
+a$BRIDGE_409 En En#_in HC_adc
+a$BRIDGE_410 LS_in LS_in#_in HC_adc
+
+.model HC_adc adc_bridge 
++ in_low=2.1 
++ in_high=2.2 
++ rise_delay=1e-12 
++ fall_delay=1e-12
++ out_family = "HC"
++ out_low = 0
++ out_high = 5
++ clamp_bias=0.5
++ clamp_res=10
+** Added 13.5.03 to make buffer devices accept analoginput connections
+.model HC_dac dac_bridge 
++ out_high=5        ; Logic high voltage
++ input_load=-31p   ; Compensates for added rise and fall time
++ t_rise=2n         ; Output rise time
++ t_fall=2n         ; Output fall time
++ g_pullup=0.024    ; 1/(logic high output resistance)
++ g_pulldown=0.034  ; 1/(logic low output resistance)
++ g_hiz=1e-9        ; 1/(high impedance output res)
++ knee_low = 2.0    ; voltage at resistive/constant current knee logic low
++ knee_high =2.75   ; voltage at resistive/constant current knee logic high
++ v_smooth = 0.5    ; Knee smoothing band
++ in_family="HC"
+** Analog-Digital
+
+********************************************************************************
+***                                                                          ***
+*** Starting Transient analysis at 16:29                                     ***
+***                                                                          ***
+*** Analysis card: .TRAN 0 20u 0 500p                                        ***
+***                                                                          ***
+********************************************************************************
+********************************************************************************
+***                                                                          ***
+***                            Simulation Options                            ***
+***                                                                          ***
+********************************************************************************
+RELTOL                    0.001
+ABSTOL                    1e-012
+VNTOL                     1e-006
+POINTTOL                  0.001
+TEMPERATURE               27C
+GMIN                      1e-012
+Matrix Solver             UF KLU Version 1.1
+
+
+
+********************************************************************************
+***                                                                          ***
+***                             Device parameters                            ***
+***                                                                          ***
+********************************************************************************
+Model parameters for devices of type d_and
+==========================================
+Model:       HC08D        
+
+fall_delay   6.5n         
+input_load   4.5p         
+out_res      40           
+rise_delay   6.5n         
+
+
+Model parameters for devices of type d_inverter
+===============================================
+Model:       HC04D        
+
+fall_delay   5.5n         
+input_load   4.5p         
+out_res      40           
+rise_delay   5.5n         
+
+
+Model parameters for devices of type d_nor
+==========================================
+Model:       HC02D        
+
+fall_delay   6.5n         
+input_load   4.5p         
+out_res      40           
+rise_delay   6.5n         
+
+
+Model parameters for devices of type d_or
+=========================================
+Model:       HC4075       
+
+fall_delay   7.5n         
+input_load   4.5p         
+out_res      40           
+rise_delay   7.5n         
+
+
+Model parameters for devices of type adc_bridge
+===============================================
+Model:       HC_adc       
+
+clamp_bias   500m         
+clamp_res    10           
+fall_delay   1p           
+in_high      2.2          
+in_low       2.1          
+out_high     5            
+out_low      0            
+rise_delay   1p           
+
+
+Model parameters for devices of type dac_bridge
+===============================================
+Model:       HC_dac       
+
+g_hiz        1n           
+g_pulldown   34m          
+g_pullup     24m          
+input_load   -31p         
+knee_high    2.75         
+knee_low     2            
+out_high     5            
+t_fall       2n           
+t_rise       2n           
+v_smooth     500m         
+
+
+Model parameters for devices of type BJT
+========================================
+Model:       BC847        
+
+_is          7.59f        
+bf           480          
+br           5            
+cjc          6.33p        
+cje          12.5p        
+fc           500m         
+ikf          96.2m        
+ikr          30m          
+irb          100u         
+isc          200f         
+ise          3.278f       
+itf          600m         
+mjc          330m         
+mje          550m         
+nc           1.2          
+ne           1.2665       
+nr           1            
+rb           100          
+rbm          10           
+rc           250m         
+re           500m         
+tf           426p         
+tr           150n         
+vaf          73.4         
+vjc          650m         
+vje          650m         
+vtf          3            
+xtf          20           
+
+
+Analysis statistics
+===================
+
+Nominal temperature = 27
+Operating temperature = 27
+Total iterations = 80590
+Transient iterations = 80552
+Transient timepoints = 40261
+Accepted timepoints = 40212
+Total analysis time = 1.937
+Transient time = 0
+Matrix reordering time = 0
+L-U decomposition time = 0
+Matrix solve time = 0
+Load time = 0
+Transient L-U decomp time = 0
+Transient solve time = 0
+Circuit build time = 0
+Simulator initialise time = 0
+Data write time = 0
+Convergence test time = 0
+LTE time = 0
+JI2 Iterations = 38
+Diag. GMIN stepping iterations = 0
+Junc. GMIN stepping iterations = 0
+Source stepping iterations = 0
+PTA iterations = 0
+Number of matrix fill ins = -6
+Number of initial matrix elements = 66
+Circuit equations = 24
+State vector size = 128
+Number of write buffer faults = 0
+EVT outputs = 16
+EVT ports = 36
+EVT instances = 17
+EVT nodes = 16
+
+Run statistics
+==============
+
+Netlist read in time = 0.032
+Total run time = 2.032 seconds
+Analysis concluded 12/10/2018 16:29

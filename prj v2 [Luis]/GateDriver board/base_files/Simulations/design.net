@@ -1,0 +1,41 @@
+* C:\Users\tutip\Dropbox\EdgeVerter\easyInverter\Altium prj\New_version\GateDriver_board\base_files\Simulations\dead_time\dead_time_circuit.sxcmp
+*#SIMETRIX
+.GRAPH U5_OUT axisType="auto" persistence=-1 graphName="IO" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true curveLabel="LS_command" disabled=false 
+V1 En 0 5
+V2 shoot_t_2 0 5 Pulse(0 5 18u 1n 1n error_width)
+R1 R1_P Q2_E 1k
+V3 LS_in 0 5 Pulse(0 5 2.5u 1n 1n width 5u)
+R2 R1_P LS_in R_dt
+V4 5V 0 5
+R3 R3_P Q1_E 1k
+V5 shoot_t_1 0 5 Pulse(0 5 8u 1n 1n error_width)
+R4 R3_P HS_in R_dt
+R5 R5_P LS_in 5k
+R6 R6_P HS_in 5k
+A$U10 LS_in U10_OUT HC04D
+A$U1 [HS_in En] U1_OUT HC08D
+A$U2 [LS_in R1_P] U2_OUT HC02D
+Q1 5V R6_P Q1_E 0 BC847
+A$U3 [U1_OUT U2_OUT] U3_OUT HC08D
+Q2 5V R5_P Q2_E 0 BC847
+A$U4 [LS_in En] U4_OUT HC08D
+A$U5 [U4_OUT U6_OUT] U5_OUT HC08D
+A$U6 [HS_in R3_P] U6_OUT HC02D
+A$U7 LS_in U7_OUT HC04D
+A$U8 [U3_OUT U5_OUT] U8_OUT HC08D
+A$U9 [U10_OUT 0 0] HS_in HC4075
+C1 R1_P 0 10p  
+C2 R3_P 0 10p  
+.GRAPH U1_OUT axisType="auto" persistence=-1 analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true curveLabel="HS_input_masked" disabled=true 
+.GRAPH R1_P axisType="auto" persistence=-1 graphName="Signals" curveLabel="LS_rc" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true disabled=true 
+.GRAPH En axisType="auto" persistence=-1 analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true curveLabel="En" disabled=true 
+.GRAPH HS_in axisType="digital" persistence=-1 graphName="IO" curveLabel="HS_in" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+.GRAPH LS_in axisType="digital" persistence=-1 graphName="IO" curveLabel="LS_in" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+.GRAPH U3_OUT axisType="auto" persistence=-1 graphName="IO" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true curveLabel="HS_command" disabled=false 
+.GRAPH R5#N axisType="auto" persistence=-1 curveLabel="I_input" analysis="tran|ac|dc" xLog="auto" yLog="lin"  nowarn=true disabled=true 
+.GRAPH U8_OUT axisType="auto" persistence=-1 graphName="Error_detection" curveLabel="shoot_through_flag" analysis="tran|ac|dc" xLog="auto" yLog="auto"  nowarn=true disabled=false 
+.TRAN 0 20u 0 500p ; SWEEP PARAM=width LIN 20 0 5u
+.PARAM error_width 500n
+.PARAM width 2.5u
+.PARAM R_dt 40k
+

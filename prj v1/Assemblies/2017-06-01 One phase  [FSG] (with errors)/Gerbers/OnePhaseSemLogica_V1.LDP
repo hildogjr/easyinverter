@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\LCEE\Google Drive\Projeto Inversor LCEE\Esquemáticos e PCB\Inverter_LCEE\OnePhaseSemLogica_V1.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=onephasesemlogica_v1-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Rect_Holes|DrillFile=onephasesemlogica_v1-rectholes-nonplated.txt|DrillLayers=gtl,gbl

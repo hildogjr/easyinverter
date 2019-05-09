@@ -1,0 +1,10 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=Inverter_LCEE.PrjPcb
+[Project2]
+ProjectPath=IsolatedPowerSupply.PrjPCB
+[Project3]
+ProjectPath=LogicsOnly.PrjPcb
+[Project4]
+ProjectPath=OnePhase.PrjPcb

@@ -1,0 +1,3 @@
+12V_iso_rail=12V_iso,GND_iso
+12V_rail=12V,0V
+5V_iso_rail=5V_iso,GND_iso

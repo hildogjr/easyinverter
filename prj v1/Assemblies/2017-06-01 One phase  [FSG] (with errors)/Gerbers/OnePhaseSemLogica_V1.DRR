@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: OnePhaseSemLogica_V1.PcbDoc   01/06/2017  10:13:04
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : OnePhaseSemLogica_V1-Plated.TXT
+ASCII Non-Plated RectHoles File : OnePhaseSemLogica_V1-RectHoles-NonPlated.TXT
+EIA File   : OnePhaseSemLogica_V1.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      28mil (0.711mm)                                           Round             122       PTH        34.47inch (875.63mm)
+T2      35mil (0.9mm)                                             Round             8         PTH        0.81inch (20.66mm)
+T3      59mil (1.5mm)                                             Round             4         PTH        4.92inch (124.85mm)
+T4      76mil (1.93mm)                                            Round             30        PTH        15.07inch (382.71mm)
+T5      79mil (2mm)                                               Round             8         PTH        5.43inch (138.04mm)
+T6      79mil (2mm)                                               Rectangle         4         NPTH       8.29inch (210.69mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              176
+
+Total Processing Time (hh:mm:ss) : 00:00:00
